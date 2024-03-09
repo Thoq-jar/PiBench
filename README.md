@@ -10,5 +10,5 @@ Open Visual Studio .sln file and run the project. Im too lazy to make a writeup 
 
 To compile on Unix run this command:
 ```bash
-cd PiBench && cd zoom && g++ zoom.cpp -o zoom && ./zoom
+cd PiBench && cd zoom && g++ -std=c++11 -pthread -o zoom zoom.cpp && ./zoom
 ```
