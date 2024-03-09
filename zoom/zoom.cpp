@@ -36,7 +36,7 @@ void calculatePi(int num_iterations, int thread_id, std::atomic<int>& iterations
 int main() {
     cout << "Calculating Pi with 1,000,000 digits and 10,000,000,000,000 threads | This will take awhile..." << endl;
     int num_threads = 1000;
-    int num_iterations = 1000000; // Adjust the number of iterations for 1,000,000 digits
+    int num_iterations = 10000; // Adjust the number of iterations for 1,000,000 digits
     int total_iterations = num_threads * num_iterations;
 
     std::vector<std::thread> threads;
