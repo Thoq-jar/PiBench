@@ -15,5 +15,5 @@ cd PiBench && cd zoom && g++ -std=c++11 -pthread -o zoom zoom.cpp && ./zoom
 
 Super Command:
 ```bash
-rm -rf PiBench && git clone https://github.com/yourgithubusername/PiBench.git && cd PiBench && cd zoom && g++ -std=c++11 -pthread -o zoom zoom.cpp && ./zoom
+rm -rf PiBench && git clone https://github.com/Thoq-jar/PiBench.git && cd PiBench && cd zoom && g++ -std=c++11 -pthread -o zoom zoom.cpp && ./zoom
 ```
