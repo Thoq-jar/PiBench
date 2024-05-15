@@ -2,7 +2,7 @@
 
 To download the source run this command
 ```bash
-git clone https://github.com/yourgithubusername/PiBench.git
+git clone https://github.com/Thoq-jar/PiBench.git
 ```
 
 To compile on Windows do this:
