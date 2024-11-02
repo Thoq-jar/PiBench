@@ -1,0 +1,14 @@
+output_dir = "purriler-out"
+output_name = "pibench"
+keep = true
+
+sources = [
+    "src/main.cpp",
+]
+
+include_paths = [
+    ".",
+    "src",
+]
+
+library_paths = []
